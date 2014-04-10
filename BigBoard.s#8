@@ -4153,14 +4153,14 @@ Standard 8.5x11 US Letter frame</description>
 <nets>
 <net name="SDI" class="0">
 <segment>
-<wire x1="15.24" y1="175.26" x2="25.4" y2="175.26" width="0.1524" layer="91"/>
-<label x="20.32" y="175.26" size="1.778" layer="95"/>
-<pinref part="J_INPUT" gate="G$1" pin="5"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="SDI"/>
 <wire x1="129.54" y1="116.84" x2="106.68" y2="116.84" width="0.1524" layer="91"/>
 <label x="106.68" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="15.24" y1="167.64" x2="25.4" y2="167.64" width="0.1524" layer="91"/>
+<label x="20.32" y="167.64" size="1.778" layer="95"/>
+<pinref part="J_INPUT" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="CLK" class="0">
@@ -4200,19 +4200,19 @@ Standard 8.5x11 US Letter frame</description>
 </net>
 <net name="OE" class="0">
 <segment>
-<wire x1="15.24" y1="167.64" x2="25.4" y2="167.64" width="0.1524" layer="91"/>
-<label x="20.32" y="167.64" size="1.778" layer="95"/>
-<pinref part="J_INPUT" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="OE"/>
 <wire x1="129.54" y1="109.22" x2="106.68" y2="109.22" width="0.1524" layer="91"/>
 <label x="106.68" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="43.18" y1="167.64" x2="53.34" y2="167.64" width="0.1524" layer="91"/>
-<label x="48.26" y="167.64" size="1.778" layer="95"/>
-<pinref part="J_OUTPUT" gate="G$1" pin="5"/>
+<wire x1="43.18" y1="175.26" x2="53.34" y2="175.26" width="0.1524" layer="91"/>
+<label x="48.26" y="175.26" size="1.778" layer="95"/>
+<pinref part="J_OUTPUT" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="15.24" y1="175.26" x2="25.4" y2="175.26" width="0.1524" layer="91"/>
+<label x="20.32" y="175.26" size="1.778" layer="95"/>
+<pinref part="J_INPUT" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -4264,9 +4264,9 @@ Standard 8.5x11 US Letter frame</description>
 <label x="106.68" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="43.18" y1="175.26" x2="53.34" y2="175.26" width="0.1524" layer="91"/>
-<label x="48.26" y="175.26" size="1.778" layer="95"/>
-<pinref part="J_OUTPUT" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="167.64" x2="53.34" y2="167.64" width="0.1524" layer="91"/>
+<label x="48.26" y="167.64" size="1.778" layer="95"/>
+<pinref part="J_OUTPUT" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="N$13" class="0">

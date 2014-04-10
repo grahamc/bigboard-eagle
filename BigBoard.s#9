@@ -4155,6 +4155,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <wire x1="15.24" y1="175.26" x2="25.4" y2="175.26" width="0.1524" layer="91"/>
 <label x="20.32" y="175.26" size="1.778" layer="95"/>
+<pinref part="J_INPUT" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="SDI"/>
@@ -4166,6 +4167,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <wire x1="15.24" y1="172.72" x2="25.4" y2="172.72" width="0.1524" layer="91"/>
 <label x="20.32" y="172.72" size="1.778" layer="95"/>
+<pinref part="J_INPUT" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="CLK"/>
@@ -4183,6 +4185,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <wire x1="15.24" y1="170.18" x2="25.4" y2="170.18" width="0.1524" layer="91"/>
 <label x="20.32" y="170.18" size="1.778" layer="95"/>
+<pinref part="J_INPUT" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="LE(ED1)"/>
@@ -4199,6 +4202,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <wire x1="15.24" y1="167.64" x2="25.4" y2="167.64" width="0.1524" layer="91"/>
 <label x="20.32" y="167.64" size="1.778" layer="95"/>
+<pinref part="J_INPUT" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="OE"/>
@@ -4215,6 +4219,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <wire x1="15.24" y1="165.1" x2="25.4" y2="165.1" width="0.1524" layer="91"/>
 <label x="20.32" y="165.1" size="1.778" layer="95"/>
+<pinref part="J_INPUT" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
@@ -4394,6 +4399,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <wire x1="15.24" y1="177.8" x2="25.4" y2="177.8" width="0.1524" layer="91"/>
 <label x="20.32" y="177.8" size="1.778" layer="95"/>
+<pinref part="J_INPUT" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <pinref part="J_OUTPUT" gate="G$1" pin="1"/>
